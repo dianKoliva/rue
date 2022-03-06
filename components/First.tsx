@@ -9,9 +9,9 @@ const First: NextPage = () => {
     <div className="  text-white ">
       <div className='flex'>
       <div>
-        <p className={`${styles.logo} pt-10 pl-10 text-4xl `}>Rue</p>
+        <p className={`${styles.logo} pt-6 pl-12 text-4xl `}>Rue</p>
       </div>
-      <div className='absolute right-0 pt-10 text-sm  font-thin flex pr-12'>
+      <div className={`absolute font-bold right-0 pt-10 text-sm    flex pr-12 ${styles.pop}`}>
       <p className={`mr-16 cursor-pointer ${styles.hover}`}>Home</p>
      <p className={`mr-16 cursor-pointer ${styles.hover}`}>About</p>
      <p className={`mr-16 cursor-pointer ${styles.hover}`}>Services</p>
@@ -25,10 +25,10 @@ const First: NextPage = () => {
         <div className='pl-10 font-bold'>
         <p>COMPARED TO THE</p>
           
-          <p className={`${styles.fera} pt-2`}> Ferrari-16</p>
+          <p className={`${styles.fera} pt-2 text-sm`}> BMW Ghost-16</p>
         </div>
       
-        <div className="dashboard flex pl-4 pt-2 text-sm">
+        <div className="dashboard flex pl-4 pt-2 text-sm pb-14">
           <div>
           <svg>
     <circle className={`${styles.bg}`} cx="57" cy="57" r="52" />
