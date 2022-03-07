@@ -146,3 +146,11 @@ clip-path: polygon(0 0, 0% 100%, 100% 30%);
 .slist{
   background-color:#e4ccbb ;
 }
+
+.tcont{
+  background-image: url("../public/1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 10em;
+width: 100%;
+}

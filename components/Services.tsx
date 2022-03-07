@@ -4,9 +4,9 @@ import styles from "../styles/Home.module.css"
 
 const Services:NextPage = () => {
   return (
-    <div>
+    <div className='pb-14'>
 
-      <p className='pl-10 font-bold'>Services</p>
+      <p className='pl-10 font-bold  '>Services</p>
 
         <div className="flex text-sm pl-20 pt-10 pb-10">
             
@@ -135,6 +135,11 @@ const Services:NextPage = () => {
 
             </div>
             
+
+            <div>
+
+
+            </div>
             </div>
     </div>
   )
