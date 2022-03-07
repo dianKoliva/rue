@@ -23,11 +23,11 @@ const Home: NextPage = () => {
 <Services></Services>
 </div>
 
-{/* <div id='InTouch' className='relative'>
+<div id='InTouch' className='relative'>
 <Touch></Touch>
-</div> */}
+</div>
 
-<div id="Footer">
+<div id="Footer" className='mt-96'>
 <Footer></Footer>
 </div>
 
