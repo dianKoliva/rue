@@ -7,7 +7,7 @@ import styles from '../styles/Home.module.css'
 const About: NextPage = () => {
   return (
     <div className= {`${styles.sec} bg-white sec`} >
-    <div className={`absolute right-0 pt-10   font-light ${styles.pop} ${styles.wid}`}>
+    <div className={`absolute right-0 pt-20   font-light ${styles.pop} ${styles.wid}`}>
 
       
       <p className=' text-center pt-1  pb-4 font-extrabold pr-4' >About Us</p>
