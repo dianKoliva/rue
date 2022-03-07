@@ -38,7 +38,7 @@ loading="lazy"></iframe>
 
 
 
-        <div className='bg-white p-6 absolute right-0 mr-60  shadow-xl rounded-md   h-80 w-80' >
+        <div className='bg-white p-6   ml-10  shadow-xl rounded-md   h-80 w-80' >
 <p className='font-bold text-center'>Message Us</p>
 
 

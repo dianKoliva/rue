@@ -6,6 +6,7 @@ import First from '../components/First'
 import About from '../components/About'
 import Touch from '../components/Touch'
 import Services from '../components/Services'
+import Footer from '../components/Footer'
 const Home: NextPage = () => {
   return (
     
@@ -22,9 +23,14 @@ const Home: NextPage = () => {
 <Services></Services>
 </div>
 
-<div id='InTouch'>
+{/* <div id='InTouch' className='relative'>
 <Touch></Touch>
+</div> */}
+
+<div id="Footer">
+<Footer></Footer>
 </div>
+
       </div>
     
    

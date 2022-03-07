@@ -154,3 +154,10 @@ clip-path: polygon(0 0, 0% 100%, 100% 30%);
   height: 10em;
   
 }
+.foot{
+  background-image: url("../public/4.jpg");
+ height: 18em;
+ width: 100%;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
