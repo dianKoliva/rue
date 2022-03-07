@@ -117,3 +117,10 @@
 .sec{
   height: 38em;
 }
+.wid{
+  width: 50%;
+}
+
+.bt{
+  border:solid #d36b26 1px;
+}
