@@ -124,3 +124,25 @@
 .bt{
   border:solid #d36b26 1px;
 }
+.bg2{
+background-image: url("../public/1.jpg");
+height: 30em;
+width: 30em;
+background-size: contain;
+background-repeat: no-repeat;
+clip-path: polygon(0 0, 0% 100%, 100% 30%);
+
+
+}
+.serveCont{
+  border-color: #d36b26;
+  margin-right: 2em;
+}
+
+.sbox{
+  background-color: #d36b26;
+}
+
+.slist{
+  background-color:#e4ccbb ;
+}
