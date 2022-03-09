@@ -8,14 +8,14 @@ const Footer:NextPage = () => {
     <div>
     <div className={`relative ${styles.foot} `}>
      
-    <div className='ml-52 pt-2'>
+    <div className='ml-52 pt-1'>
     <div className='ml-96 absolute  rounded-full h-16   w-16 bg-white '>
 <BiChevronsUp className='w-14' style={{ marginTop:"-23px", marginLeft:"5px"}}></BiChevronsUp>
 </div>
 
 </div>
 
-      <div className="flex  pt-16 pb-3 pl-32 ">
+      <div className="flex  pt-28 pb-3 pl-32 ">
 
         <div className='w-96  text-white'>
 

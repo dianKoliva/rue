@@ -2,6 +2,12 @@ import React from 'react'
 import type { NextPage } from 'next'
 import styles from "../styles/Home.module.css"
 import {BiMessageDots} from "react-icons/bi";
+import {BiPhone} from "react-icons/bi";
+import { BiLocationPlus } from "react-icons/bi";
+import { BsChatLeftTextFill } from "react-icons/bs";
+import {BsBriefcaseFill } from "react-icons/bs";
+
+
 
 const Touch:NextPage = () => {
   return (
@@ -18,8 +24,10 @@ const Touch:NextPage = () => {
 <p className='text-sm font-bold text-center'>Contact Details</p>
 
 <div className='mb-5 text-xs mt-1 text-center'>
-    <p className=''>788-888-888</p>
-    <p className=''>Kimironko kk49 </p>
+    <p className=''>
+        <BiPhone className='h-4 absolute' style={{marginTop:"1px", marginLeft:"20px"}}></BiPhone>
+        788-888-888</p>
+    <p className='mt-3'> <BiLocationPlus className='h-4 absolute' style={{marginTop:"0px",marginLeft:"20px"}}></BiLocationPlus> Kimironko kk49 </p>
 </div>
 
 
@@ -48,7 +56,9 @@ loading="lazy"></iframe>
 <div className='text-sm mt-4'>
     <div className=' flex'>
   
-    <p className='flex'>  Email</p>
+    <p className='flex'> 
+    
+     Email</p>
     </div>
 
 
@@ -57,7 +67,9 @@ focus:outline-none
 ' type="text" name="" id="" />
 </div>
 <div className='text-sm mt-6'>
-<p>Message</p>
+<p>
+
+    Message</p>
 <input  className='  w-60  border-b-2 border-solid border-black
 focus:outline-none
 ' type="text" name="" id="" />

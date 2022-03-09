@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import 'animate.css';
 
 
 const About: NextPage = () => {
@@ -37,7 +38,7 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit.
 
 
 <div className='pt-14 text-center '>
-<button className={`${styles.bt} px-8 text-sm rounded-md py-2  `}>Read more</button>
+<button className={`${styles.bt} animate__animated animate__bounce px-8 text-sm rounded-md py-2  `}>Read more</button>
 </div>
 
 
