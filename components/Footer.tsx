@@ -1,10 +1,19 @@
 import React from 'react'
 import { NextPage } from 'next'
 import styles from "../styles/Home.module.css"
+import { BiChevronsUp} from "react-icons/bi";
 
 const Footer:NextPage = () => {
   return (
+    <div>
     <div className={`relative ${styles.foot} `}>
+     
+    <div className='ml-52 pt-2'>
+    <div className='ml-96 absolute  rounded-full h-16   w-16 bg-white '>
+<BiChevronsUp className='w-14' style={{ marginTop:"-23px", marginLeft:"5px"}}></BiChevronsUp>
+</div>
+
+</div>
 
       <div className="flex  pt-16 pb-3 pl-32 ">
 
@@ -38,6 +47,7 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 
 
 
+    </div>
     </div>
   )
 }

@@ -7,22 +7,21 @@ import styles from '../styles/Home.module.css'
 const About: NextPage = () => {
   return (
     <div className= {`${styles.sec} bg-white sec`} >
-      <div className="flex pt-6">
+      <div className="flex pt-4">
 
         <div className={` mt-20 ${styles.bg2}  `}>
            
         </div>
 
 
-      <div className={`absolute right-0 pt-20   font-light ${styles.pop} ${styles.wid}`}>
+      <div className={`absolute right-0 pt-20    font-light ${styles.pop} ${styles.wid}`}>
 
       
-<p className=' text-center pt-1  pb-4 font-extrabold pr-4' >About Us</p>
+<p className=' text-center pt-1  pb-4 font-bold pr-4' >About Us</p>
 
 
-
-
-<p className='pt-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod incidunt ducimus,
+<div >
+<p className='pt-4 '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod incidunt ducimus,
  consectetur,
 ea quas magni, illo quos veniam ut sed aliquam dignissimos magnam ex vero velit quis? Similique,
 amet velit.
@@ -33,6 +32,9 @@ ea quas magni, illo quos veniam ut sed aliquam dignissimos magnam ex vero velit 
 amet velit.
 Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
 </p>
+</div>
+
+
 
 <div className='pt-14 text-center '>
 <button className={`${styles.bt} px-8 text-sm rounded-md py-2  `}>Read more</button>

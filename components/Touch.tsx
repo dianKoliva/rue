@@ -1,6 +1,7 @@
 import React from 'react'
 import type { NextPage } from 'next'
 import styles from "../styles/Home.module.css"
+import {BiMessageDots} from "react-icons/bi";
 
 const Touch:NextPage = () => {
   return (
@@ -13,7 +14,7 @@ const Touch:NextPage = () => {
 
     <div className='flex mt-10 p-4 pb-10'>
 
-        <div className='bg-white p-6  ml-60  shadow-xl rounded-md   h-80 w-80' >
+        <div className='bg-white p-6  ml-52  shadow-xl rounded-md   h-80 w-80' >
 <p className='text-sm font-bold text-center'>Contact Details</p>
 
 <div className='mb-5 text-xs mt-1 text-center'>
@@ -38,14 +39,19 @@ loading="lazy"></iframe>
 
 
 
-        <div className='bg-white p-6   ml-10  shadow-xl rounded-md   h-80 w-80' >
+        <div className='bg-white p-6   ml-40 shadow-xl rounded-md   h-80 w-80' >
 <p className='font-bold text-center'>Message Us</p>
 
 
 <div className='pl-4 pt-6'>
 
 <div className='text-sm mt-4'>
-<p>Email</p>
+    <div className=' flex'>
+  
+    <p className='flex'>  Email</p>
+    </div>
+
+
 <input  className=' w-60 border-b-2 border-solid border-black
 focus:outline-none
 ' type="text" name="" id="" />

@@ -6,9 +6,9 @@ const Services:NextPage = () => {
   return (
     <div className='pb-14'>
 
-      <p className='pl-10 font-bold  '>Services</p>
+      <p className='pl-10 font-bold '>Services</p>
 
-        <div className="flex text-sm pl-20 pt-10 pb-10">
+        <div className="flex text-sm pl-16 pt-10 pb-10">
             
             <div className={`${styles.serveCont} rounded-md border-2 border-solid px-8 p-4`}>
 
@@ -46,7 +46,7 @@ const Services:NextPage = () => {
               <div>
                 <div className='flex '>
                 <div className={`h-8 w-10  ${styles.sbox}`}>
-                  <p className='m-auto pl-2  text-white text-sm pt-2'> #1</p>
+                  <p className='m-auto pl-2  text-white text-sm pt-2'> #2</p>
                  </div>
             
             <p className='pl-2 text-sm pt-1'>Silver Wash</p>
@@ -77,7 +77,7 @@ const Services:NextPage = () => {
               <div>
                 <div className='flex '>
                 <div className={`h-8 w-10  ${styles.sbox}`}>
-                  <p className='m-auto pl-2  text-white text-sm pt-2'> #1</p>
+                  <p className='m-auto pl-2  text-white text-sm pt-2'> #3</p>
                  </div>
             
             <p className='pl-2 text-sm pt-1'>Silver Wash</p>
@@ -108,7 +108,7 @@ const Services:NextPage = () => {
               <div>
                 <div className='flex '>
                 <div className={`h-8 w-10  ${styles.sbox}`}>
-                  <p className='m-auto pl-2  text-white text-sm pt-2'> #1</p>
+                  <p className='m-auto pl-2  text-white text-sm pt-2'> #4</p>
                  </div>
             
             <p className='pl-2 text-sm pt-1'>Silver Wash</p>

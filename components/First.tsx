@@ -21,7 +21,7 @@ const First: NextPage = () => {
       </div>
 
 
-      <div className='  pt-60 mt-2  '>
+      <div className='  pt-60 mt-2   '>
         <div className='pl-10 font-bold'>
         <p>COMPARED TO THE</p>
           
@@ -41,7 +41,7 @@ const First: NextPage = () => {
   </div>
           </div>
   
-  <div>
+  <div className='ml-6'>
   <svg>
     <circle className={`${styles.bg}`} cx="57" cy="57" r="52" />
     <circle className={`${styles.meter2}`} cx="57" cy="57" r="52" />
@@ -52,7 +52,7 @@ const First: NextPage = () => {
   </div>
   </div>
 
-  <div>
+  <div className='ml-6'>
   <svg>
     <circle className={`${styles.bg}`} cx="57" cy="57" r="52" />
     <circle className={`${styles.meter3}`}cx="57" cy="57" r="52" />
